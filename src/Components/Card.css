@@ -1,0 +1,69 @@
+.main-container {
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 280px;
+  color: white;
+  height: max-content;
+  background-color: #1a1b21;
+}
+.second-con {
+  padding: 1rem;
+  height: max-content;
+}
+.con-und {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.de-sn,
+.abt-ct {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.abt-sec {
+  font-size: 1rem;
+}
+.lh {
+  line-height: 1rem;
+}
+.e-ma-l {
+  font-size: 0.6rem;
+}
+.content {
+  margin-top: 1.5rem;
+}
+.content :nth-child(2) {
+  margin-bottom: 1rem;
+}
+.cntct-btns {
+  display: flex;
+  gap: 0.6rem;
+  width: 100%;
+}
+.e-ma-l-btn,
+.lnkd-btn {
+  width: 90%;
+  padding: 0.5rem 1.4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+}
+.cntct-btns .lnkd-btn {
+  background-color: #5093e2;
+  color: white;
+}
+.con-icons{
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  align-items: center;
+  font-size: 1.8rem;
+  width: 100%;
+  background-color:  #161619;
+  cursor: pointer;
+  padding: 1.2rem 0;
+}
